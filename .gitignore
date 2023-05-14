@@ -4,8 +4,8 @@ autogpt/*json
 autogpt/node_modules/
 autogpt/__pycache__/keys.cpython-310.pyc
 autogpt/auto_gpt_workspace
-!autogpt/auto_gpt_workspace/ai_constrains.txt
-!autogpt/auto_gpt_workspace/ai_lessons_learned.txt
+!./autogpt/auto_gpt_workspace/ai_constraints.txt
+!./autogpt/auto_gpt_workspace/ai_lessons_learned.txt
 package-lock.json
 *.pyc
 auto_gpt_workspace/*
