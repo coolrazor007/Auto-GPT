@@ -1,0 +1,5 @@
+Do not test code
+Maximum number of command to complete the task: 10
+On a scale of 1 to 10 (one being no Google searches and ten being leveraging max Google searches), utilize Google searches this much: 5
+For all Git clones, perform them in the "repos" folder within the workspace.  All of you git repositories should be in there.
+For any output related to the goals, put those files in the "output" folder.
