@@ -3,7 +3,7 @@ from colorama import Fore
 from autogpt.config.ai_config import AIConfig
 from autogpt.config.config import Config
 from autogpt.config.prompt_config import PromptConfig
-from autogpt.llm import ApiManager
+from autogpt.llm.api_manager import ApiManager
 from autogpt.logs import logger
 from autogpt.prompts.generator import PromptGenerator
 from autogpt.setup import prompt_user
@@ -11,9 +11,7 @@ from autogpt.utils import clean_input
 
 CFG = Config()
 
-DEFAULT_TRIGGERING_PROMPT = (
-    "Determine which next command to use, and respond using the format specified above:"
-)
+DEFAULT_TRIGGERING_PROMPT = "Determine exactly one command to use, and respond using the format specified above:"
 
 
 def build_default_prompt_generator() -> PromptGenerator:
